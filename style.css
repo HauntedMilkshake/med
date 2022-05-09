@@ -1,0 +1,14 @@
+.butonce {
+    z-index: 0;
+    position: relative;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+.med {
+    position: relative;
+    z-index: 1;
+}
+body {
+    background-color: #c429af;
+}
