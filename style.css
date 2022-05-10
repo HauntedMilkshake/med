@@ -1,31 +1,35 @@
-.butonce {
-    z-index: 0;
-    position: relative;
+.isus {
+    position: absolute;
     left: 0;
-    width: 50%;
-    height: 50%;
-}
-.med {
-    position: relative;
-    z-index: 1;
+    top: 0;
+    height: 100%;
+    width: 100%;
 }
 body {
     background-color: #25252A;
 }
-.container{
+h1{
+    margin: 300px 0 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    
+}
+.container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
     text-align: center;
     min-height: 100vh;
 }
-.btn1{
+.startBtn {
     width: 300px;
     height: 100px;
     border: none;
     color: white;
-    background-color: transparent;
+    background-color: rgba(251, 255, 0, 0.8);
     border-radius: 4px;
     transition: ease-out 0.3s;
     font-size: 2rem;
@@ -33,23 +37,33 @@ body {
     border: 3px solid transparent;
     position: relative;
     z-index: 1;
+    box-shadow:
+        0 0 50px 25px rgba(251, 255, 0, 0.8),
+        0 0 50px 25px #fff;
+    
 }
-.btn1:hover{
+.startBtn:hover {
    color: white;
    cursor: pointer;
+   background-color: rgba(251, 255, 0, 1);
+   box-shadow:
+    0 0 570px 550px rgb(251, 255, 0),
+    0 0 570px 550px #fff;
 }
-.btn1:before{
+.startBtn:before {
     transition: 0.5s all ease;
     position: absolute;
     top: 0;
-    left:50%;
-    right: 50%;
+    /* left:50%; */
+    /* right: 50%; */
+    
+    border-radius: 6px;
     bottom: 0;
     opacity: 0;
     content: "";
-    background-color: #42FBF2;
+    /* background-color: #42FBF2; */
 }
-.btn1:hover:before{
+.startBtn:hover:before {
     transition: 0.5s all ease;
     left: 0;
     right: 0;
