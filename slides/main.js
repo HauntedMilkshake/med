@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function(event) {
     document.querySelector('body').style.opacity = 1
 })
 function hoverOverBookmark(id) {
-    document.getElementById(id).src = "/media/bookmark-active.png"
+    document.getElementById(id).src = "../media/bookmark-active.png"
 }
 function unHoverOverBookmark(id) {
-    document.getElementById(id).src = "/media/bookmark.png"
+    document.getElementById(id).src = "../media/bookmark.png"
 }
 function changeSlide(slideNum) {
     window.location.href = `./slide${slideNum}.html`
