@@ -1,2 +1,2 @@
 # med
-sait za himichniq element (proekt po himiq 💀)
+Sait za himichniq element (proekt po himiq 💀)
